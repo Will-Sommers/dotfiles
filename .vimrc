@@ -31,8 +31,8 @@ if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
   syntax on
 endif
 
-if filereadable(expand("~/.vimrc.bundles"))
-  source ~/.vimrc.bundles
+if filereadable(expand("~/.vim/.vimrc.bundles"))
+  source ~/.vim/.vimrc.bundles
 endif
 
 set tabstop=2
