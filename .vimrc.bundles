@@ -1,0 +1,29 @@
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'danro/rename.vim'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'kien/ctrlp.vim'
+Bundle 'scrooloose/syntastic'
+Bundle 'thoughtbot/vim-rspec'
+Bundle 'tpope/vim-bundler'
+Bundle 'tpope/vim-cucumber'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-dispatch'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-surround'
+Bundle 'tsaleh/vim-matchit'
+Bundle 'slim-template/vim-slim'
+Bundle 'vim-scripts/ctags.vim'
+Bundle 'vim-scripts/tComment'
+Bundle 'scrooloose/nerdtree'
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle "mileszs/ack.vim"
+
+filetype plugin indent on
